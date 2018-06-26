@@ -50,7 +50,7 @@ namespace OWINAuthentication.IdentityProviders
                     if (context.Request.Query["state"] != null)
                     {
                         var state = HttpUtility.ParseQueryString(context.Request.Query["state"]);
-                        //todo: do something with it.
+                        //Todo : need to do something with it
                     }
 
                     return System.Threading.Tasks.Task.FromResult(0);
